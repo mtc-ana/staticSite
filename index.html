@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Responsive Website</title>
+</head>
+<body>
+
+<div class="sticky-menu">
+    <a href="#container" class="menu-title">Agen<span class="italic">eco</span></a>
+    <div class="menu-links">
+        <a href="#container">Accueil</a>
+        <a href="#team-section">Notre équipe</a>
+        <a href="#services-section">Nos services</a>
+        <a href="#about-section">Témoignages</a>
+        <a href="#contact-section">Contactez-nous</a>
+        <a href="#gallery-section">Notre galerie</a>
+    </div>
+</div>
+
+<div class="container" id="container">
+    <a href="360-degree-page.html">
+        <img src="images/rodion.jpg" alt="Background Image" class="background-image">
+    </a>
+    <div class="text-container">
+        <p class="white-text-accueil">Bienvenue dans votre</p>
+        <p class="yellow-text-accueil">agence web écologique</p>
+    </div>
+</div>
+
+<div class="team-section" id="team-section">
+    <div class="team-header">
+        <h2 class="green-text">Notre équipe</h2>
+    </div>
+    <div class="team-text">
+        <p class="black-text">Notre équipe est hautement qualifiée et expérimentée, prête à répondre à tous vos
+            besoins.</p>
+    </div>
+    <div class="team-members">
+        <div class="team-member">
+            <div class="profile-circle">
+                <img src="images/image1.jpg" alt="Julie Dupon">
+            </div>
+            <p class="member-name">Julie Dupon</p>
+            <p class="member-description">Web Designer</p>
+        </div>
+        <div class="team-member">
+            <div class="profile-circle">
+                <img src="images/image2.jpg" alt="Romeo Sylla">
+            </div>
+            <p class="member-name">Romeo Sylla</p>
+            <p class="member-description">Frontend Developer</p>
+        </div>
+        <div class="team-member">
+            <div class="profile-circle">
+                <img src="images/image3.jpg" alt="Javier Bardem">
+            </div>
+            <p class="member-name">Javier Bardem</p>
+            <p class="member-description">UX Designer</p>
+        </div>
+    </div>
+</div>
+
+<div class="feedback-section" id="feedback-section">
+    <div class="feedback-content">
+        <div class="feedback-item">
+            <p class="big-text yellow-green-text">2500</p>
+            <p class="small-text white-green-text">Clients satisfaits</p>
+        </div>
+        <div class="feedback-item">
+            <p class="big-text yellow-green-text">2500</p>
+            <p class="small-text white-green-text">Clients satisfaits</p>
+        </div>
+        <div class="feedback-item">
+            <p class="big-text yellow-green-text">2500</p>
+            <p class="small-text white-green-text">Clients satisfaits</p>
+        </div>
+        <div class="feedback-item">
+            <p class="big-text yellow-green-text">2500</p>
+            <p class="small-text white-green-text">Clients satisfaits</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="services-section" id="services-section">
+    <h2 class="green-text">Nos services</h2>
+    <div class="services-row">
+        <div class="service">
+            <div class="service-image">
+                <img src="images/Vector.jpg" alt="Création de sites web">
+                <div class="overlay"></div> <!-- Gray overlay -->
+            </div>
+            <p class="service-text">Création de sites web</p>
+        </div>
+        <div class="service">
+            <div class="service-image">
+                <img src="images/Vector-1.jpg" alt="Audit de qualité">
+                <div class="overlay"></div> <!-- Gray overlay -->
+            </div>
+            <p class="service-text">Audit de qualité</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="contact-section" id="contact-section">
+    <div class="contact-header">
+        <h2 class="green-text">Contactez-nous</h2>
+    </div>
+    <div class="contact-text">
+        <p>N'hésitez pas à nous contacter pour toute question ou demande. Remplissez le formulaire ci-dessous, et nous
+            vous répondrons dans les plus brefs délais.</p>
+    </div>
+    <form class="contact-form">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="categorie">Catégorie</label>
+                <input type="text" id="categorie" name="categorie" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone" required>
+            </div>
+            <div class="form-group">
+                <label for="ville">Ville</label>
+                <input type="text" id="ville" name="ville" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+        </div>
+        <div class="form-row">
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+</div>
+
+
+<div class="about-section" id="about-section">
+    <img src="images/about.jpg" alt="About Us" class="about-image">
+    <div class="about-content">
+        <h2 class="about-title">A propos de nous</h2>
+        <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor libero in est
+            malesuada, a semper ipsum fringilla.</p>
+        <div class="about-images">
+            <div class="about-image-item">
+                <div class="vector-image">
+                    <img src="images/Vector-2.jpg" alt="Ecologique">
+                </div>
+                <p class="about-image-text">Écologique</p>
+            </div>
+            <div class="about-image-item">
+                <div class="vector-image">
+                    <img src="images/Vector-3.jpg" alt="Responsable">
+                </div>
+                <p class="about-image-text">Responsable</p>
+            </div>
+            <div class="about-image-item">
+                <div class="vector-image">
+                    <img src="images/Vector-4.jpg" alt="24/7 Assistance">
+                </div>
+                <p class="about-image-text">24/7 Assistance</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="gallery-section" id="gallery-section">
+    <div class="gallery-header">
+        <h2 class="green-text">Notre galerie</h2>
+    </div>
+    <div class="gallery-content">
+        <p class="gallery-text">Découvrez notre galerie de photos mettant en avant nos réalisations et notre équipe.</p>
+        <img src="images/gallery.jpg" alt="Gallery Image" class="gallery-image">
+    </div>
+</div>
+
+<div class="header-section">
+    <div class="header-column">
+        <div class="white-text bold">Content</div>
+        <p class="white-text smaller">Word1</p>
+        <p class="white-text smaller">Word2</p>
+    </div>
+    <div class="header-column">
+        <div class="white-text bold">Informations</div>
+        <p class="white-text smaller">Word3</p>
+        <p class="white-text smaller">Word4</p>
+    </div>
+    <div class="header-column">
+        <div class="white-text bold">Services</div>
+        <p class="white-text smaller">Word5</p>
+        <p class="white-text smaller">Word6</p>
+    </div>
+    <div class="header-column">
+        <div class="white-text bold">Aide</div>
+        <p class="white-text smaller">Word7</p>
+        <p class="white-text smaller">Word8</p>
+    </div>
+    <div class="header-column wider">
+        <div class="contact-info">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="contact-text">
+                <p class="white-text smaller">123-456-789</p>
+                <p class="white-text smaller">987-654-321</p>
+            </div>
+        </div>
+        <div class="contact-info">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-text">
+                <p class="white-text smaller">123 Street, City</p>
+                <p class="white-text smaller">Country, Postal Code</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- Existing content in the footer section -->
+<div class="footer-bottom">
+    <div class="footer-left">
+        <p class="white-text">Copyright @2023 All rights reserved</p>
+    </div>
+    <div class="footer-right">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fas fa-share"></i></a>
+    </div>
+</div>
+
+
+</body>
+</html>
